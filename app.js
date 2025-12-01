@@ -26,6 +26,7 @@ const addTodo = (input) => {
     checkbox.type = 'checkbox'
     checkbox.id = id
     checkbox.classList.add('hidden') // samma som i exemplet, även om CSS redan gömmer den
+    li.classList.add('todo-item');
 
     // <label for="todo-x" class="cbx"> <svg>...</svg> </label>
     const cbxLabel = document.createElement('label')
