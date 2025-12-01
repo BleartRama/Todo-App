@@ -146,32 +146,8 @@ body {
 }
 
 
-#todo-list::-webkit-scrollbar {
-  width: 8px;
-}
-
-#todo-list::-webkit-scrollbar-thumb {
-  background: #18cda6;
-  border-radius: 10px;
-}
-
-#todo-list::-webkit-scrollbar-thumb:hover {
-  background: #0fb890;
-}
 
 
-
-
-
-
-.todo-item {
-  animation: fadeIn 0.25s ease forwards;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-4px); }
-  to { opacity: 1; transform: translateY(0); }
-}
 
 
 
@@ -381,6 +357,7 @@ footer {
               0 0 12px rgba(24, 205, 166, 0.4),
               0 0 6px rgba(24, 205, 166, 0.3);
   transform: translateY(-2px);
+
 }
 
 .button-36:active {
